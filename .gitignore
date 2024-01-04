@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+# visual studio crap
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+OpenGlCourseNotes/OpenGlCourseNotes.sln
+OpenGlCourseNotes/OpenGlCourseNotes.vcxproj
+OpenGlCourseNotes/OpenGlCourseNotes.vcxproj.filters
+OpenGlCourseNotes/OpenGlCourseNotes.vcxproj.user
+OpenGlCourseNotes/.vs/OpenGlCourseNotes/FileContentIndex/0e8a51a5-f247-45bd-a724-40d10d4b7077.vsidx
+OpenGlCourseNotes/.vs/OpenGlCourseNotes/FileContentIndex/read.lock
+OpenGlCourseNotes/.vs/OpenGlCourseNotes/v17/.suo
+OpenGlCourseNotes/.vs/OpenGlCourseNotes/v17/Browse.VC.db

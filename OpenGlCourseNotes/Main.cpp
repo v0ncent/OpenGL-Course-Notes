@@ -17,7 +17,7 @@ int main() {
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
 	// Create glfw window
-	GLFWwindow* window = glfwCreateWindow(800, 800, windowName, NULL, NULL);
+	GLFWwindow* window = glfwCreateWindow(800, 800, WINDOW_NAME, NULL, NULL);
 
 	// Error check if the window fails to create
 	if (window == NULL) {
@@ -36,6 +36,7 @@ int main() {
 	// In this casee the viewport (fromX fromY, toX toY)
 	glViewport(0, 0, 800, 800);
 
+	RGBColor* backgroundColor = (struct RGBColor*)malloc(sizeof(struct RGBColor));
 	backgroundColor -> R = 0.07f;
 	backgroundColor -> G = 0.13f;
 	backgroundColor -> B = 0.17f;
